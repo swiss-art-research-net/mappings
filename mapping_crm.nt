@@ -1,7 +1,13 @@
 <http://www.cidoc-crm.org/cidoc-crm/E21_Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://d-nb.info/standards/elementset/gnd#Person> .
 <http://www.cidoc-crm.org/cidoc-crm/E21_Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://vocab.getty.edu/ontology#PersonConcept> .
-<http://www.cidoc-crm.org/cidoc-crm/E21_Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q5> .
-<http://www.cidoc-crm.org/cidoc-crm/E21_Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q154954> .
-<http://www.cidoc-crm.org/cidoc-crm/E21_Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q1415187> .
-<http://www.cidoc-crm.org/cidoc-crm/E39_Actor> <http://www.w3.org/2002/07/owl#equivalentClass> <http://vocab.getty.edu/ontology#GroupConcept>
-<http://www.cidoc-crm.org/cidoc-crm/E39_Actor> <http://www.w3.org/2002/07/owl#equivalentClass> <http://vocab.getty.edu/ontology#UnknownPersonConcept>
+<http://www.cidoc-crm.org/cidoc-crm/E21_Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q5> . #human
+<http://www.cidoc-crm.org/cidoc-crm/E21_Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q154954> . # natural person
+<http://www.cidoc-crm.org/cidoc-crm/E21_Person> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q1415187> . #economic agent
+<http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> <http://www.w3.org/2002/07/owl#equivalentClass> <http://vocab.getty.edu/ontology#GroupConcept> .
+<http://www.cidoc-crm.org/cidoc-crm/E39_Actor> <http://www.w3.org/2002/07/owl#equivalentClass> <http://vocab.getty.edu/ontology#UnknownPersonConcept> .
+#to verify 
+#<http://www.cidoc-crm.org/cidoc-crm/E39_Actor> <http://www.w3.org/2002/07/owl#equivalentClass> <http://d-nb.info/standards/elementset/gnd#ConferenceOrEvent> .
+<http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> <http://www.w3.org/2002/07/owl#equivalentClass> <http://d-nb.info/standards/elementset/gnd#CorporateBody> .
+<http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q43229> . #organzation
+<http://www.cidoc-crm.org/cidoc-crm/E40_Legal_Body> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q155076> . #juridical person
+<http://www.cidoc-crm.org/cidoc-crm/E73_Group> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q8436> . #family
