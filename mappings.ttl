@@ -71,7 +71,8 @@ crm:E22_Man-Made_Object rdf:type rdfs:Class ;
 frbroo:F24_Publication_Expression rdf:type rdfs:Class;
 	owl:equivalentClass wd:Q47461344 ; # written work
 	owl:equivalentClass wd:Q732577 ; # publication
-	owl:equivalentClass wd:Q2342494 . #collectible 
+	owl:equivalentClass wd:Q2342494 ; #collectible 
+	owl:equivalentClass gnd:Work ;
 
 # Event/Activity equivalences => reviewed
 
