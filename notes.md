@@ -1,10 +1,22 @@
 # mappings
 
-Mappings of CIDOC-CRM classes and properties to wikidata/ulan/gnd. Not yet complete.
+Mappings of CIDOC-CRM classes and properties to Wikidata/GVP/GND/Geonames/swisstopo. Not yet complete.
 Currently using owl:equivalentClass to state that the classes share the same extension (but not the same intension).
 
 
-**To do**
-+ add void description of the linkset
-+ finish the mapping
-+ check other alternatives of owl:equivalentClass (which do not entails membership of all the classes)
+
+Currently present:  
+
++ Person equivalences  
++ Group/Corporate body equivalences  
++ Event/Activities equivalences  
++ Propositional/Conceptual object equivalences  
+
+
+Possible subcategories?  
+
+* Artwork  
+* Built Work  
+* Bibliographic item  
+* Type/Vocabulary  
+

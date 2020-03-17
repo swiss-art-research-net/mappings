@@ -1,0 +1,114 @@
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix wd: <http://www.wikidata.org/entity/> . 
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdv: <http://www.wikidata.org/value/> . 
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix gnd: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+
+
+
+
+# Person equivalences => reviewed
+
+crm:E21_Person rdf:type rdfs:Class ;
+	owl:equivalentClass gnd:Person ; #closeMatch is been used because the equivalence of the classes is partial. gnd:person includes as subclass also "characters" and "spirits" .
+	owl:equivalentClass gnd:UndifferentiatedPerson ;
+	owl:equivalentClass gvp:PersonConcept ;
+	owl:equivalentClass wd:Q215627 ; # person
+	owl:equivalentClass wd:Q154954 ;  #natural person in wikidata
+	owl:equivalentClass wd:Q1415187 . #economic agent in wikidata
+
+# Group equivalences => reviewed
+
+crm:E74_Group rdf:type rdfs:Class ;
+	owl:equivalentClass gvp:GroupConcept;
+	owl:equivalentClass wd:Q8436 ; # family -> Married couples and other concepts of family are regarded as particular examples of E74 Group.
+	owl:equivalentClass gnd:CorporateBody ;
+#	owl:equivalentClass wd:Q43229 ; #organzation in wd
+	owl:equivalentClass wd:Q3778211 ; #legal person
+	owl:equivalentClass wd:Q6256 ; # country -> Nationality can be modeled as membership in an E74 Group 
+	owl:equivalentClass wd:Q16334295 ; #g-roup of human. however it can include human not acting together, which is wrong in CRM. But they do not differentiate. Ex: Fouding fathers.
+	owl:equivalentClass wd:Q5946290 . # facilities but actually used also for groups
+
+# Artwork and Built work equivalences -> Object => reviewed
+
+crm:E22_Man-Made_Object rdf:type rdfs:Class ;
+	owl:equivalentClass gnd:Work ;
+	owl:equivalentClass wd:Q223557 ; #physical object. Subclass contains intellectual work
+	owl:equivalentClass wd:Q4406616 ; # equivalent to physical object, but no formalisation has been found
+	owl:equivalentClass wd:Q17553950 ; # tangible object. subclass is (also) artificial entity, which do imply possibility of mental objects...
+	owl:equivalentClass gnd:BuildingOrMemorial .
+
+# Built work equivalences => reviewed
+crm:E22_Man-Made_Object rdf:type rdfs:Class ;
+	crm:P2_has_type "Built Work" ;
+	owl:equivalentClass gnd:BuildingOrMemorial ;
+	owl:equivalentClass wd:Q17350442 ;
+	owl:equivalentClass wd:Q570116 ; # tourist attractions
+	owl:equivalentClass wd:Q811979 . # architectural structure
+
+
+# Artwork equivalences => reviewed
+crm:E22_Man-Made_Object rdf:type rdfs:Class ;
+	crm:P2_has_type "Artwork" ;
+	owl:equivalentClass wd:Q18593264 ; #item in a collection
+	owl:equivalentClass wd:Q838948 . # work of art 
+
+# Bibliographic item equivalences => reviewed
+
+frbroo:F24_Publication_Expression rdf:type rdfs:Class;
+	owl:equivalentClass wd:Q47461344 ; # written work
+	owl:equivalentClass wd:Q732577 ; # publication
+	owl:equivalentClass wd:Q2342494 . #collectible 
+
+# Event/Activity equivalences => reviewed
+
+crm:E5_Event rdf:type rdfs:Class ;
+	owl:equivalentClass gnd:ConferenceOrEvent ;
+	owl:equivalentClass wd:Q1190554 . # occurrence of a fact or object in space-time; instantiation of a property in an object; what can be experimented or registered by some observer
+
+
+# Place equivalences  => reviewed
+
+
+crm:E53_Place rdf:type rdfs:Class ;
+	owl:equivalentClass gnd:PlaceOrGeographicName ; #subclass are not only places
+	owl:equivalentClass wd:Q27096213; #geographical entity
+	owl:equivalentClass gvp:PhysPlaceConcept ; #Physical feature, defined by its physical characteristics on planet Earth, including mountains, rivers, and oceans. Used in TGN only.
+	owl:equivalentClass gvp:AdminPlaceConcept ; #Place defined by administrative boundaries and conditions, including inhabited places, nations, and empires. Used in TGN only. 
+	owl:equivalentClass gvp:PhysAdminPlaceConcept ; #Place that is both administrative and physical. Rarely used. Used in TGN only.
+	owl:equivalentClass gn:Feature .
+
+
+# Conceptual Object
+
+# crm:E89_Propositional_Object rdf:type rdfs:Class ;
+#	owl:equivalentClass gnd:SubjectHeading ;
+#	owl:equivalentClass wd:Q164573 ; #subject in wd
+#	owl:equivalentClass wd:Q108163 ; #proposition in wd
+#	owl:equivalentClass gvp:Subject ; #subject in gvp
+#	owl:equivalentClass wd:Q29651519 . #mental object
+
+# crm:E28_Conceptual_Object rdf:type rdfs:Class ;
+#	owl:equivalentClass wd:Q151885 ; #conceptual object in wd
+#	owl:equivalentClass wd:Q7184903 ; #abstract object in wd
+#	owl:equivalentClass wd:Q2145290 ; #mental representation in wd
+
+
+
+
+
+
+
