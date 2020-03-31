@@ -1,0 +1,7 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://data.bnf.fr/ark:/12148/cb11896729n> foaf:focus <http://data.bnf.fr/ark:/12148/cb11896729n#about> .
+<http://data.bnf.fr/ark:/12148/cb11896729n#about>
+  foaf:familyName "Choffard" ;
+  foaf:givenName "Pierre-Philippe" ;
+  foaf:name "Pierre-Philippe Choffard" . # To be used

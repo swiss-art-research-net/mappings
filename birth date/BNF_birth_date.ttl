@@ -1,0 +1,11 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# BNF birth and death dates
+
+<http://data.bnf.fr/ark:/12148/cb11896729n> foaf:focus <http://data.bnf.fr/ark:/12148/cb11896729n#about> .
+<http://data.bnf.fr/ark:/12148/cb11896729n#about>
+  bio:birth "1730-03-19" ; #birth date
+  bio:death "1809-03-07" . #death date

@@ -1,0 +1,12 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.geonames.org/ontology#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix xml: <https://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://sws.geonames.org/3169070/>
+  geo:name "Rome" ; # to be used
+  geo:alternateName "ሮማ"@am, "로마"@ko, "ܪܘܡܐ"@arc, "โรม"@th, "ローマ"@ja, "An Róimh"@ga, "An Ròimh"@gd, "Erroma"@eu, "Lungsod ng Roma"@tl, "Mji wa Roma"@sw, "Råmma"@rgn, "Rim"@bs, "Rim"@hbs, "Rim"@hr, "Rim"@sl, "Rím"@sk, "Řím"@cs, "Roeme"@li, "Rom"@als, "Rom"@da, "Rom"@de, "Rom"@kw, "Rom"@ms, "Rom"@nds, "Rom"@sv, "Rom", "Róm"@is, "Roma"@an, "Roma"@ast, "Roma"@br, "Roma"@ca, "Roma"@cy, "Roma"@en, "Roma"@es, "Roma"@frp, "Roma"@gl, "Roma"@ia, "Roma"@id, "Roma"@io, "Roma"@la, "Roma"@lt, "Roma"@lv, "Roma"@nn, "Roma"@no, "Roma"@oc, "Roma"@pms, "Roma"@pt, "Roma"@qu, "Roma"@rm, "Roma"@ro, "Roma"@sc, "Roma"@scn, "Roma"@sq, "Roma"@tl, "Roma"@tpi, "Roma"@tr, "Roma"@tw, "Roma"@ty, "Roma"@vec, "Roma"@vi, "Roma"@vo, "Róma"@hu, "Rome"@fur, "Rome"@nl, "Rome"@nrm, "Romë"@sq, "Romma"@nap, "Romo"@eo, "Rooma"@et, "Rooma"@fi, "Roum"@lb, "Rzym"@pl, "Urbs"@la, "رم"@fa, "روم"@ur, "روما"@ar, "رىم"@ug, "רומא"@he, "Ρώμη"@el, "Рим"@bg, "Рим"@cv, "Рим"@mk, "Рим"@os, "Рим"@ru, "Рим"@sr, "Рим"@uk, "Римъ"@cu, "Рым"@be, "Հռոմ"@hy, "რომი"@ka, "रोम"@hi, "रोम"@mr, "रोमा"@sa, "罗马市"@zh ;
+  geo:officialName "Rhufain"@cy, "Roma"@it, "Rome"@en, "Rome"@fr, "Ром"@mn .

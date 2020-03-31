@@ -1,0 +1,58 @@
+@prefix gnd: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+
+
+
+<https://d-nb.info/gnd/4050471-2/about> gnd:isDescribedIn [
+    dbo:abbreviation "DNB"^^xsd:string ;
+    dc11:publisher "Deutsche Nationalbibliothek"^^xsd:string ;
+    foaf:logo "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/favicon.png?__blob=normal&v=4"^^xsd:string ;
+    foaf:name "Gemeinsame Normdatei (GND) im Katalog der Deutschen Nationalbibliothek"^^xsd:string
+  ] .
+<http://sws.geonames.org/3169070> gnd:isDescribedIn [
+    dbo:abbreviation "geonames"^^xsd:string ;
+    dc11:publisher "GeoNames"^^xsd:string ;
+    foaf:logo "http://www.geonames.org/geonames.ico"^^xsd:string ;
+    foaf:name "GeoNames"^^xsd:string
+  ] .
+<https://de.wikipedia.org/wiki/Rom_%28Deux-S%C3%A8vres%29> gnd:isDescribedIn [
+    dbo:abbreviation "dewiki"^^xsd:string ;
+    dc11:publisher "Wikimedia Foundation Inc."^^xsd:string ;
+    foaf:logo "https://de.wikipedia.org/static/favicon/wikipedia.ico"^^xsd:string ;
+    foaf:name "Wikipedia (Deutsch)"^^xsd:string
+  ] .
+<https://de.wikisource.org/wiki/Rom> gnd:isDescribedIn [
+    dbo:abbreviation "WIKISOURCE"^^xsd:string ;
+    dc11:publisher "Wikimedia Foundation Inc."^^xsd:string ;
+    foaf:logo "https://wikisource.org/static/favicon/wikisource.ico"^^xsd:string ;
+    foaf:name "Wikisource"^^xsd:string
+  ] .
+<https://en.wikipedia.org/wiki/Rom%2C_Deux-S%C3%A8vres> gnd:isDescribedIn [
+    dbo:abbreviation "enwiki"^^xsd:string ;
+    dc11:publisher "Wikimedia Foundation Inc."^^xsd:string ;
+    foaf:logo "https://en.wikipedia.org/static/favicon/wikipedia.ico"^^xsd:string ;
+    foaf:name "Wikipedia (English)"^^xsd:string
+  ] .
+<http://id.loc.gov/rwo/agents/no2014153021> gnd:isDescribedIn [
+    dbo:abbreviation "LC"^^xsd:string ;
+    dc11:publisher "Library of Congress"^^xsd:string ;
+    foaf:logo "http://www.loc.gov/favicon.ico"^^xsd:string ;
+    foaf:name "NACO Authority File"^^xsd:string
+  ] .
+<http://viaf.org/viaf/243431474> gnd:isDescribedIn [
+    dbo:abbreviation "VIAF"^^xsd:string ;
+    dc11:publisher "OCLC"^^xsd:string ;
+    foaf:logo "http://viaf.org/viaf/images/viaf.ico"^^xsd:string ;
+    foaf:name "Virtual International Authority File (VIAF)"^^xsd:string
+  ] .
+<http://www.wikidata.org/entity/Q220> gnd:isDescribedIn [
+    dbo:abbreviation "WIKIDATA"^^xsd:string ;
+    dc11:publisher "Wikimedia Foundation Inc."^^xsd:string ;
+    foaf:logo "https://www.wikidata.org/static/favicon/wikidata.ico"^^xsd:string ;
+    foaf:name "Wikidata"^^xsd:string
+  ] .
+[] schema:sameAs <https://d-nb.info/gnd/4050471-2/about>, <http://sws.geonames.org/3169070>, <https://de.wikipedia.org/wiki/Rom_%28Deux-S%C3%A8vres%29>, <https://de.wikisource.org/wiki/Rom>, <https://en.wikipedia.org/wiki/Rom%2C_Deux-S%C3%A8vres>, <http://id.loc.gov/rwo/agents/no2014153021>, <http://viaf.org/viaf/243431474>, <http://www.wikidata.org/entity/Q220> .

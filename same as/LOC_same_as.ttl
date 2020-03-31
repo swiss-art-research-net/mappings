@@ -1,0 +1,11 @@
+@prefix loc: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://id.loc.gov/authorities/names/no2012024999> loc:hasCloseExternalAuthority <http://www.wikidata.org/entity/Q4885699> .
+<http://id.loc.gov/authorities/names/n79018704>
+  skos:exactMatch <http://viaf.org/viaf/sourceID/LC%7Cn++79018704#skos:Concept> ;
+  loc:hasCloseExternalAuthority <http://id.worldcat.org/fast/1346395> .
+
+<http://id.loc.gov/authorities/names/n80152368>
+  skos:exactMatch <http://viaf.org/viaf/sourceID/LC%7Cn++80152368#skos:Concept> ;
+  skos:closeMatch <http://www.wikidata.org/entity/Q5592>, <http://id.worldcat.org/fast/64395>, <http://vocab.getty.edu/ulan/500010654> .

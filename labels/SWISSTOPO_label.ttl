@@ -1,0 +1,5 @@
+@prefix schema: <http://schema.org/> .
+
+
+<https://ld.geo.admin.ch/boundaries/canton/15>
+        schema:Name             "Appenzell Ausserrhoden"@en .

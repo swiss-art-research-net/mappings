@@ -1,0 +1,4 @@
+<https://d-nb.info/gnd/4001191-4> 
+  gndo:variantNameForTheWork "La bataille d'Aliscans", "Chanson d'Aliscans";
+  gndo:preferredNameForTheWork "Aliscans" .
+  

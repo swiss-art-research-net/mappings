@@ -1,0 +1,12 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://resource.swissartresearch.net/person/24B837B1-8B7C-402B-A3D2-500FCF88B914> a crm:E21_Person ;
+	crm:P1_is_identified_by <https://resource.swissartresearch.net/person/24B837B1-8B7C-402B-A3D2-500FCF88B914/appellation/952978A5-55FA-3229-B933-B62B52679671> .
+
+
+<https://resource.swissartresearch.net/person/24B837B1-8B7C-402B-A3D2-500FCF88B914/appellation/952978A5-55FA-3229-B933-B62B52679671> a crm:E41_Appellation ;
+	crm:P2_has_type <https://resource.swissartresearch.net/type/preffered%20term> ;
+	rdfs:label "Salaün, Albin"@en .

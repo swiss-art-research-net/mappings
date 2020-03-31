@@ -1,0 +1,16 @@
+@prefix schema: <http://schema.org/> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#GND birth and death dates
+
+<https://d-nb.info/gnd/118540238> a <https://d-nb.info/standards/elementset/gnd#Person> ;
+  gnd:dateOfBirth "August 28, 1749"^^xsd:string ; #birth date
+  gnd:dateOfDeath "March 22, 1832"^^xsd:string ; #death date

@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://data.bnf.fr/ark:/12148/cb11896729n>
+  owl:sameAs <http://wikidata.org/entity/Q7192019> ;
+  foaf:focus <http://data.bnf.fr/ark:/12148/cb11896729n#about> .
+
+<http://data.bnf.fr/ark:/12148/cb11896729n#about> owl:sameAs <http://data.bnf.fr/ark:/12148/cb11896729n#foaf:Person>, <http://viaf.org/viaf/44296876>, <http://www.idref.fr/026787431/id> .

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+#ULAN birth and date dates
+
+ulan:500010654 a gvp:Subject , skos:Concept , gvp:PersonConcept ;
+	foaf:focus ulan:500010654-agent .
+
+ulan:500010654-agent a schema:Person ;
+	gvp:biographyPreferred ulan_bio:4000027234 .
+
+ulan_bio:4000027234 a gvp:Biography ;
+	gvp:estStart "1475"^^xsd:gYear ; #birthDate
+	gvp:estEnd "1564"^^xsd:gYear . #deathDate

@@ -1,0 +1,20 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#mapping of birth date in SARI
+
+
+
+<https://resource.swissartresearch.net/person/24B837B1-8B7C-402B-A3D2-500FCF88B914> a crm:E21_Person ;
+	crm:P98i_was_born <https://resource.swissartresearch.net/person/24B837B1-8B7C-402B-A3D2-500FCF88B914/birth> ;
+	crm:P100i_died_in <https://resource.swissartresearch.net/person/24B837B1-8B7C-402B-A3D2-500FCF88B914/death> .
+
+<https://resource.swissartresearch.net/person/24B837B1-8B7C-402B-A3D2-500FCF88B914/birth> a crm:E67_Birth;
+	crm:P4_has_time-span <https://resource.swissartresearch.net/birth_timespan/90B5A44C-182C-3D41-A500-BE19D8AB56A2> .
+
+<https://resource.swissartresearch.net/birth_timespan/90B5A44C-182C-3D41-A500-BE19D8AB56A2> a crm:E52_Time-span ;
+	crm:P82a_begin_of_the_begin "1876-01-01"^^xsd:date ; # birthDate start
+	crm:P82b_end_of_the_end "1876-12-31"^^xsd:date . #birthDate end
+

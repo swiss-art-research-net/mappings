@@ -1,0 +1,7 @@
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+ulan:500035452 a gvp:Subject , skos:Concept , gvp:PersonConcept ;
+skos:exactMatch <http://id.loc.gov/authorities/names/nb98021061> ;
+skos:closeMatch <http://id.loc.gov/authorities/names/nb98021061> .

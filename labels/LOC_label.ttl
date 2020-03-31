@@ -1,0 +1,66 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix change: <http://purl.org/vocab/changeset/schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://id.loc.gov/authorities/names/n80152368>
+  a skos:Concept ;
+  skos:prefLabel "Michelangelo Buonarroti, 1475-1564" ;
+  skosxl:altLabel [
+    a skosxl:Label ;
+    skosxl:literalForm "Mikelandzhelo Buonarroti, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Michelangelo, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Mikelʹ-Andzhelo, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Michael Angelo, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Miguel Angel, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Mīkilānjilū, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Michelangiolo, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Michel-Ange, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Michał Anioł, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Buonarroti, Michel Angelo, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Miguel Angelo, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Michelagniolo Buonarroti, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Buonarroti, Michelagniolo, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Buonarroti, Michelangelo, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Michelangiolo Buonarroti, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Michaelangelo, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Michelagnolo di Lodovico Buonarroti Simoni, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "Микеланджело Буонарроти, 1475-1564"
+  ], [
+    a skosxl:Label ;
+    skosxl:literalForm "מיכאל־אנג׳לו בואונארוטי, 1475־1564"
+  ] .

@@ -1,0 +1,5 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+<https://d-nb.info/gnd/4001191-4> 
+  owl:sameAs <http://viaf.org/viaf/182731512>, <http://id.loc.gov/rwo/agents/n90685273> .
