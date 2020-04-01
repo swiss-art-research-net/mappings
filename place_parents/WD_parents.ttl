@@ -1,0 +1,12 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q69041 wdt:P31 wd:Q54935504, wd:Q70208, wd:Q1187811 ;
+	wdt:P17 wd:Q39 ;
+	wdt:P131 wd:Q12724 .
+
+wd:Q12724 rdfs:label "Ticino"@en .
+wd:Q39 rdfs:label "Switzerland"@en .

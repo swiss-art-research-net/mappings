@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+
+<https://sws.geonames.org/2659689/> a <http://www.geonames.org/ontology#Feature> ;
+    geonames:parentCountry <https://sws.geonames.org/2658434/> ; #country
+    geonames:parentADM1 <https://sws.geonames.org/2658370/> . #parent Place
+
+<https://sws.geonames.org/2658434/> a <http://www.geonames.org/ontology#Feature> ;
+	geonames:name "Switzerland" . #country label
+
+<https://sws.geonames.org/2658370/> a <http://www.geonames.org/ontology#Feature> ;
+	geonames:name "Ticino" . #parent label

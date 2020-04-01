@@ -1,0 +1,22 @@
+@prefix schema: <http://schema.org/> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://d-nb.info/gnd/4325165-1> a <https://d-nb.info/standards/elementset/gnd#PlaceOrGeographicName> ;
+  gnd:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-CH-TI> . # parent place to be retrived in <https://d-nb.info/standards/vocab/gnd/geographic-area-code#>
+
+<https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-CH-TI> a skos:Concept ;
+        skos:broader    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-CH> ; #country
+        skos:inScheme   <https://d-nb.info/standards/vocab/gnd/geographic-area-code#> ;
+        skos:prefLabel  "Ticino"@en , "Kanton Tessin"@de . #label of the parent place
+
+<https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-CH>
+        a                skos:Concept ;
+        skos:prefLabel   "Switzerland"@en , "Schweiz"@de . #label of the parent place
+       
