@@ -1,0 +1,14 @@
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-NG>
+        a                skos:Concept ;
+        rdfs:seeAlso     <http://www.geonames.org/2328926> , <https://d-nb.info/gnd/4042300-1> ;
+        skos:exactMatch  <http://id.loc.gov/vocabulary/countries/nr> , <http://id.loc.gov/vocabulary/geographicAreas/f-nr> .
