@@ -1,0 +1,9 @@
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-NG> a skos:Concept ;
+    skos:prefLabel   "Nigeria"@en , "Nigeria"@de .
