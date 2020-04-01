@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://d-nb.info/gnd/4205540-4> a <https://d-nb.info/standards/elementset/gnd#CorporateBody> ;
+  gnd:placeOfBusiness <https://d-nb.info/gnd/4000018-7> .
+
+<https://d-nb.info/gnd/4000018-7> gnd:preferredName "Aarau"^^xsd:string . # Location place

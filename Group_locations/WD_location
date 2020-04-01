@@ -1,0 +1,10 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q301250 wdt:P31 wd:Q207694, wd:Q1497649 ;
+	wdt:P131 wd:Q14274 .
+
+wd:Q14274 rdfs:label "Aarau"@en.

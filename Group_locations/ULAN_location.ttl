@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+ulan:500234030 a gvp:Subject , skos:Concept , gvp:GroupConcept ; # Main entity
+	foaf:focus ulan:500234030-agent .
+
+ulan:500234030-agent a schema:Organization ;
+	gvp:eventPreferred ulan_event:130662 .
+
+ulan_event:130662 a bio:Event , schema:Event ;
+	dct:type aat:300393211 ;
+	schema:location tgn:7007266-place . #Place in TGN
