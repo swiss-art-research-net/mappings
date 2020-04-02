@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+
+
+aat:300026677 a gvp:Subject , skos:Concept , gvp:Concept ;
+	gvp:broaderPreferred aat:300265266 .
+
+aat:300265266 a gvp:Subject , skos:Concept , gvp:Concept ;
+	skos:prefLabel "controlled vocabularies"@en , "控制詞彙"@zh-hant , "kòng zhì cí huì"@zh-latn-pinyin-x-hanyu , "kong zhi ci hui"@zh-latn-pinyin-x-notone , "k'ung chih tz'u hui"@zh-latn-wadegile , "gecontroleerde vocabulaires"@nl .
+	
