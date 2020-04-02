@@ -5,6 +5,7 @@
 @prefix gvp: <http://vocab.getty.edu/ontology#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ulan: <http://vocab.getty.edu/ulan/> .
 
 #ULAN birth and date dates
 

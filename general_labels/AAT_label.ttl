@@ -1,0 +1,13 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+
+
+aat:300026677 a gvp:Subject , skos:Concept , gvp:Concept ;
+	rdfs:label "thesauri"@en , "thesauri"@nl , "thesaurus"@en , "thesaurus"@nl , "thesauruses"@en , "分類辭典"@zh-hant , "索引典"@zh-hant , "fēn lèi cí diǎn"@zh-latn-pinyin-x-hanyu , "fen lei ci dian"@zh-latn-pinyin-x-notone , "fen lei tz'u tien"@zh-latn-wadegile , "thesaurieën"@nl , "thésaurus"@fr , "dictionnaire analogique"@fr , "tesauros"@es , "tesauro"@es ;
+	skos:prefLabel "thesauri"@en , "thesauri"@nl , "分類辭典"@zh-hant , "fēn lèi cí diǎn"@zh-latn-pinyin-x-hanyu , "fen lei ci dian"@zh-latn-pinyin-x-notone , "fen lei tz'u tien"@zh-latn-wadegile , "thésaurus"@fr , "tesauros"@es .
