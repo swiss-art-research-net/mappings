@@ -16,6 +16,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix gn: <http://www.geonames.org/ontology#> .
 @prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix rds: <http://schema.swissartresearch.net/ontology/rds#> .
 
 
 
@@ -23,7 +24,7 @@
 # Person equivalences => reviewed
 
 rds:Person a rdfs:Class;
-	rdfs:label "Person"@en
+	rdfs:label "Person"@en ;
 	rdfs:comment "person entity type expressed in RDS. The Person class is expressed as superclass of a series of classes from various ontology in the heritage domain"@en .
 
 
@@ -47,7 +48,7 @@ crm:E21_Person rdf:type rdfs:Class ;
 # Group equivalences => reviewed
 
 rds:Group a rdfs:Class;
-	rdfs:label "Group"@en
+	rdfs:label "Group"@en ;
 	rdfs:comment "The group entity type expressed in RDS. The Group class is expressed as superclass of a series of classes from various ontology in the heritage domain"@en .
 
 gvp:GroupConcept rdfs:subClassOf rds:Group .
@@ -80,7 +81,7 @@ crm:E22_Man-Made_Object rdf:type rdfs:Class ;
 # Built work equivalences => reviewed
 
 rds:BuiltWork a rdfs:Class;
-	rdfs:label "Built Work"@en
+	rdfs:label "Built Work"@en ;
 	rdfs:comment "The built work entity type expressed in RDS. The built work class is expressed as superclass of a series of classes from various ontology in the heritage domain"@en .
 
 gnd:BuildingOrMemorial rdfs:subClassOf rds:Group .
@@ -106,7 +107,7 @@ crm:E22_Man-Made_Object rdf:type rdfs:Class ;
 # Bibliographic item equivalences => reviewed
 
 rds:BiliographicItem a rdfs:Class;
-	rdfs:label "Bibliographic Item"@en
+	rdfs:label "Bibliographic Item"@en ;
 	rdfs:comment "A bibliographic item entity type expressed in RDS. The bibliographic item class is expressed as superclass of a series of classes from various ontology in the heritage domain"@en .
 
 gnd:Work rdfs:subClassOf rds:BiliographicItem .
@@ -119,13 +120,13 @@ frbroo:F24_Publication_Expression rdf:type rdfs:Class;
 	owl:equivalentClass wd:Q47461344 ; # written work
 	owl:equivalentClass wd:Q732577 ; # publication
 	owl:equivalentClass wd:Q2342494 ; #collectible 
-	owl:equivalentClass gnd:Work ;
+	owl:equivalentClass gnd:Work .
 
 # Event/Activity equivalences => reviewed
 
 
 rds:Event a rdfs:Class;
-	rdfs:label "Event"@en
+	rdfs:label "Event"@en ;
 	rdfs:comment "An Event entity type expressed in RDS. The event class is expressed as superclass of a series of classes from various ontology in the heritage domain"@en .
 
 
@@ -141,7 +142,7 @@ crm:E5_Event rdf:type rdfs:Class ;
 # Place equivalences  => reviewed
 
 rds:Place a rdfs:Class;
-	rdfs:label "Place"@en
+	rdfs:label "Place"@en ;
 	rdfs:comment "A Place entity type expressed in RDS. The place class is expressed as superclass of a series of classes from various ontology in the heritage domain"@en .
 
 crm:E53_Place rdfs:subClassOf rds:Place .
