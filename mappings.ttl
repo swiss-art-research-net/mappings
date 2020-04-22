@@ -21,7 +21,7 @@
 
 
 
-# Person equivalences => reviewed
+# Person equivalences 
 
 rds:Person a rdfs:Class;
 	rdfs:label "Person"@en ;
@@ -45,7 +45,7 @@ crm:E21_Person rdf:type rdfs:Class ;
 	owl:equivalentClass wd:Q154954 ;  #natural person in wikidata
 	owl:equivalentClass wd:Q1415187 . #economic agent in wikidata
 
-# Group equivalences => reviewed
+# Group equivalences 
 
 rds:Group a rdfs:Class;
 	rdfs:label "Group"@en ;
@@ -69,29 +69,31 @@ crm:E74_Group rdf:type rdfs:Class ;
 	owl:equivalentClass wd:Q16334295 ; #g-roup of human. however it can include human not acting together, which is wrong in CRM. But they do not differentiate. Ex: Fouding fathers.
 	owl:equivalentClass wd:Q5946290 . # facilities but actually used also for groups
 
-# Artwork and Built work equivalences -> Object => reviewed
 
-crm:E22_Man-Made_Object rdf:type rdfs:Class ;
-	owl:equivalentClass gnd:Work ;
-	owl:equivalentClass wd:Q223557 ; #physical object. Subclass contains intellectual work
-	owl:equivalentClass wd:Q4406616 ; # equivalent to physical object, but no formalisation has been found
-	owl:equivalentClass wd:Q17553950 ; # tangible object. subclass is (also) artificial entity, which do imply possibility of mental objects...
-	owl:equivalentClass gnd:BuildingOrMemorial .
+# Built work equivalences
 
-# Built work equivalences => reviewed
-
-rds:BuiltWork a rdfs:Class;
+rds:BuiltWork a owl:Class;
 	rdfs:label "Built Work"@en ;
 	rdfs:comment "The built work entity type expressed in RDS. The built work class is expressed as superclass of a series of classes from various ontology in the heritage domain"@en .
 
-gnd:BuildingOrMemorial rdfs:subClassOf rds:Group .
-wd:Q17350442 rdfs:subClassOf rds:Group .
-wd:Q570116 rdfs:subClassOf rds:Group .
-wd:Q811979 rdfs:subClassOf rds:Group .
+rds:crmBuiltWork rdf:type owl:Class ;
+      owl:equivalentClass
+              [ a owl:Class ;
+                owl:intersectionOf (crm:E22_Man-Made_Object 
+                	[ a owl:Restriction ;
+                            owl:onProperty crm:P2_has_type ;
+                            owl:hasValue <http://vocab.getty.edu/aat/300265418>
+                          ])
+              ] .
+
+gnd:BuildingOrMemorial rdfs:subClassOf rds:BuiltWork .
+wd:Q17350442 rdfs:subClassOf rds:BuiltWork .
+wd:Q570116 rdfs:subClassOf rds:BuiltWork .
+wd:Q811979 rdfs:subClassOf rds:BuiltWork .
+rds:crmBuiltWork rdfs:subClassOf rds:BuiltWork .
 
 
-crm:E22_Man-Made_Object rdf:type rdfs:Class ;
-	crm:P2_has_type <http://vocab.getty.edu/aat/300265418> ;
+rds:crmBuiltWork rdf:type rdfs:Class ;
 	owl:equivalentClass gnd:BuildingOrMemorial ;
 	owl:equivalentClass wd:Q17350442 ;
 	owl:equivalentClass wd:Q570116 ; # tourist attractions
@@ -99,12 +101,32 @@ crm:E22_Man-Made_Object rdf:type rdfs:Class ;
 
 
 # Artwork equivalences => reviewed
-crm:E22_Man-Made_Object rdf:type rdfs:Class ;
-	crm:P2_has_type "Artwork" ;
+
+rds:Artwork a owl:Class;
+	rdfs:label "Artwork"@en ;
+	rdfs:comment "The works of art entity type expressed in RDS. The artwork class is expressed as superclass of a series of classes from various ontology in the heritage domain"@en .
+
+
+rds:crmArtwork rdf:type owl:Class ;
+      owl:equivalentClass
+              [ a owl:Class ;
+                owl:intersectionOf (crm:E22_Man-Made_Object 
+                	[ a owl:Restriction ;
+                            owl:onProperty crm:P2_has_type ;
+                            owl:hasValue <http://vocab.getty.edu/aat/300133025>
+                          ])
+              ] .
+
+
+rds:crmArtwork rdf:type rdfs:Class ;
 	owl:equivalentClass wd:Q18593264 ; #item in a collection
 	owl:equivalentClass wd:Q838948 . # work of art 
 
-# Bibliographic item equivalences => reviewed
+wd:Q18593264 rdfs:subClassOf rds:Artwork .
+wd:Q838948 rdfs:subClassOf rds:Artwork .
+rds:crmArtwork rdfs:subClassOf rds:Artwork .
+
+# Bibliographic item equivalences 
 
 rds:BiliographicItem a rdfs:Class;
 	rdfs:label "Bibliographic Item"@en ;
@@ -122,7 +144,7 @@ frbroo:F24_Publication_Expression rdf:type rdfs:Class;
 	owl:equivalentClass wd:Q2342494 ; #collectible 
 	owl:equivalentClass gnd:Work .
 
-# Event/Activity equivalences => reviewed
+# Event/Activity equivalences 
 
 
 rds:Event a rdfs:Class;
@@ -139,7 +161,7 @@ crm:E5_Event rdf:type rdfs:Class ;
 	owl:equivalentClass wd:Q1190554 . # occurrence of a fact or object in space-time; instantiation of a property in an object; what can be experimented or registered by some observer
 
 
-# Place equivalences  => reviewed
+# Place equivalences 
 
 rds:Place a rdfs:Class;
 	rdfs:label "Place"@en ;
@@ -160,21 +182,6 @@ crm:E53_Place rdf:type rdfs:Class ;
 	owl:equivalentClass gvp:AdminPlaceConcept ; #Place defined by administrative boundaries and conditions, including inhabited places, nations, and empires. Used in TGN only. 
 	owl:equivalentClass gvp:PhysAdminPlaceConcept ; #Place that is both administrative and physical. Rarely used. Used in TGN only.
 	owl:equivalentClass gn:Feature .
-
-
-# Conceptual Object
-
-# crm:E89_Propositional_Object rdf:type rdfs:Class ;
-#	owl:equivalentClass gnd:SubjectHeading ;
-#	owl:equivalentClass wd:Q164573 ; #subject in wd
-#	owl:equivalentClass wd:Q108163 ; #proposition in wd
-#	owl:equivalentClass gvp:Subject ; #subject in gvp
-#	owl:equivalentClass wd:Q29651519 . #mental object
-
-# crm:E28_Conceptual_Object rdf:type rdfs:Class ;
-#	owl:equivalentClass wd:Q151885 ; #conceptual object in wd
-#	owl:equivalentClass wd:Q7184903 ; #abstract object in wd
-#	owl:equivalentClass wd:Q2145290 ; #mental representation in wd
 
 
 
