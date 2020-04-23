@@ -6,6 +6,7 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
 @prefix wd:    <http://www.wikidata.org/entity/> .
 @prefix wd: <http://www.wikidata.org/entity/> . 
 @prefix wds: <http://www.wikidata.org/entity/statement/> .
@@ -72,6 +73,7 @@ crm:E74_Group rdf:type rdfs:Class ;
 
 # Built work equivalences
 
+
 rds:BuiltWork a owl:Class;
 	rdfs:label "Built Work"@en ;
 	rdfs:comment "The built work entity type expressed in RDS. The built work class is expressed as superclass of a series of classes from various ontology in the heritage domain"@en .
@@ -82,7 +84,7 @@ rds:crmBuiltWork rdf:type owl:Class ;
                 owl:intersectionOf (crm:E22_Man-Made_Object 
                 	[ a owl:Restriction ;
                             owl:onProperty crm:P2_has_type ;
-                            owl:hasValue <http://vocab.getty.edu/aat/300265418>
+                            owl:hasValue aat:300265418
                           ])
               ] .
 
@@ -113,7 +115,7 @@ rds:crmArtwork rdf:type owl:Class ;
                 owl:intersectionOf (crm:E22_Man-Made_Object 
                 	[ a owl:Restriction ;
                             owl:onProperty crm:P2_has_type ;
-                            owl:hasValue <http://vocab.getty.edu/aat/300133025>
+                            owl:hasValue aat:300133025
                           ])
               ] .
 
