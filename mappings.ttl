@@ -78,16 +78,8 @@ rds:BuiltWork a owl:Class;
 	rdfs:label "Built Work"@en ;
 	rdfs:comment "The built work entity type expressed in RDS. The built work class is expressed as superclass of a series of classes from various ontology in the heritage domain"@en .
 
-rds:crmBuiltWork rdf:type owl:Class ;
-      owl:equivalentClass
-              [ a owl:Class ;
-                owl:intersectionOf (crm:E22_Man-Made_Object 
-                	[ a owl:Restriction ;
-                            owl:onProperty crm:P2_has_type ;
-                            owl:hasValue aat:300265418
-                          ])
-              ] .
 
+              
 gnd:BuildingOrMemorial rdfs:subClassOf rds:BuiltWork .
 wd:Q17350442 rdfs:subClassOf rds:BuiltWork .
 wd:Q570116 rdfs:subClassOf rds:BuiltWork .
@@ -95,11 +87,18 @@ wd:Q811979 rdfs:subClassOf rds:BuiltWork .
 rds:crmBuiltWork rdfs:subClassOf rds:BuiltWork .
 
 
-rds:crmBuiltWork rdf:type rdfs:Class ;
+rds:crmBuiltWork rdf:type owl:Class ;
 	owl:equivalentClass gnd:BuildingOrMemorial ;
 	owl:equivalentClass wd:Q17350442 ;
 	owl:equivalentClass wd:Q570116 ; # tourist attractions
-	owl:equivalentClass wd:Q811979 . # architectural structure
+	owl:equivalentClass wd:Q811979 ; # architectural structure
+	owl:equivalentClass [ a owl:Class ;
+                owl:intersectionOf (crm:E22_Man-Made_Object 
+                	[ a owl:Restriction ;
+                            owl:onProperty crm:P2_has_type ;
+                            owl:hasValue aat:300265418
+                          ])
+              ] .
 
 
 # Artwork equivalences => reviewed
