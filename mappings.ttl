@@ -44,7 +44,8 @@ crm:E21_Person rdf:type rdfs:Class ;
 	owl:equivalentClass gvp:PersonConcept ;
 	owl:equivalentClass wd:Q215627 ; # person
 	owl:equivalentClass wd:Q154954 ;  #natural person in wikidata
-	owl:equivalentClass wd:Q1415187 . #economic agent in wikidata
+	owl:equivalentClass wd:Q1415187 ; #economic agent in wikidata
+	owl:equivalentClass wd:Q5 .
 
 # Group equivalences 
 
