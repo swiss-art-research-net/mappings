@@ -59,7 +59,6 @@ gnd:CorporateBody rdfs:subClassOf rds:Group .
 wd:Q3778211 rdfs:subClassOf rds:Group .
 wd:Q6256 rdfs:subClassOf rds:Group .
 wd:Q16334295 rdfs:subClassOf rds:Group .
-wd:Q5946290 rdfs:subClassOf rds:Group .
 
 crm:E74_Group rdf:type rdfs:Class ;
 	owl:equivalentClass gvp:GroupConcept;
