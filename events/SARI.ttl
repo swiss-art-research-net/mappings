@@ -1,0 +1,14 @@
+<https://resource.swissartresearch.net/person/FD3E10C1-069F-4B66-8061-2AEC3EACDF99/death> a crm:E69_Death ;
+	crm:P4_has_time-span <https://resource.swissartresearch.net/death_timespan/C068ED09-9E5F-3FD8-B0E0-2D194D55FF46> ;
+	crm:P7_took_place_at <https://resource.swissartresearch.net/place/CC7620E7-C853-4842-8059-AC69C6D7CABC> .
+
+<https://resource.swissartresearch.net/death_timespan/C068ED09-9E5F-3FD8-B0E0-2D194D55FF46> a crm:E52_Time-Span ;
+	crm:P82a_begin_of_the_begin "1909-01-01"^^xsd:date ;
+	crm:P82b_end_of_the_end "1909-12-31"^^xsd:date .
+
+
+<https://resource.swissartresearch.net/place/CC7620E7-C853-4842-8059-AC69C6D7CABC> a crm:E53_Place ;
+	crm:P1_is_identified_by <https://resource.swissartresearch.net/place/CC7620E7-C853-4842-8059-AC69C6D7CABC/appellation> .
+
+<https://resource.swissartresearch.net/place/CC7620E7-C853-4842-8059-AC69C6D7CABC/appellation> a rdfs:label ;
+	rdfs:label "label" .

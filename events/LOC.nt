@@ -1,0 +1,13 @@
+<http://id.loc.gov/authorities/names/n80008740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#ConferenceName> .
+<http://id.loc.gov/authorities/names/n80008740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#Authority> .
+<http://id.loc.gov/authorities/names/n80008740> <http://www.loc.gov/mads/rdf/v1#authoritativeLabel> "Paris Peace Conference (1919-1920)" .
+<http://id.loc.gov/authorities/names/n80008740> <http://www.loc.gov/mads/rdf/v1#hasVariant> _:b59iddOtlocdOtgovauthoritiesnamesn80008740 ._:b59iddOtlocdOtgovauthoritiesnamesn80008740 <http://www.loc.gov/mads/rdf/v1#elementList> _:b64iddOtlocdOtgovauthoritiesnamesn80008740 .
+_:b64iddOtlocdOtgovauthoritiesnamesn80008740 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b067 .
+_:b067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:b68iddOtlocdOtgovauthoritiesnamesn80008740 .
+_:b067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:b68iddOtlocdOtgovauthoritiesnamesn80008740 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#DateNameElement> .
+_:b68iddOtlocdOtgovauthoritiesnamesn80008740 <http://www.loc.gov/mads/rdf/v1#elementValue> "(1919-1920)" .
+<http://id.loc.gov/authorities/names/n80008740> <http://www.loc.gov/mads/rdf/v1#hasVariant> _:b83iddOtlocdOtgovauthoritiesnamesn80008740 .
+_:b83iddOtlocdOtgovauthoritiesnamesn80008740 <http://www.loc.gov/mads/rdf/v1#elementList> _:b88iddOtlocdOtgovauthoritiesnamesn80008740 .
+_:b88iddOtlocdOtgovauthoritiesnamesn80008740 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:b89iddOtlocdOtgovauthoritiesnamesn80008740 .
+_:b89iddOtlocdOtgovauthoritiesnamesn80008740 <http://www.loc.gov/mads/rdf/v1#elementValue> "Paris." .

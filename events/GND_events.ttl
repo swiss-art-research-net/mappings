@@ -1,0 +1,14 @@
+@prefix schema: <http://schema.org/> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://d-nb.info/gnd/2090549-X> 
+gndo:variantNameForTheConferenceOrEvent "Pariser Friedenskonferenz (1946 : Paris)",
+    "Friedenskonferenz (1946 : Paris)", "Pariser Konferenz (1946 : Paris)", "Peace Conference (1946 : Paris)";
+  gndo:preferredNameForTheConferenceOrEvent "Paris Peace Conference (1946 : Paris)"; #label
+  gndo:dateOfConferenceOrEvent "29.07.1946-15.10.1946"; #date
+  gndo:placeOfConferenceOrEvent <https://d-nb.info/gnd/4044660-8> . #place

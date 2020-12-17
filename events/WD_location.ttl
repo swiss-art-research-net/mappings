@@ -1,0 +1,10 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q199820 rdfs:label "Paris Peace Conference"@en ;
+	wdt:P276 "Paris"@en;
+	wdt:P580 "18 January 1919" ;
+	wdt:P582 "21 January 1920" .
