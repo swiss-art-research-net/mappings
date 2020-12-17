@@ -1,0 +1,15 @@
+@prefix schema: <http://schema.org/> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://d-nb.info/gnd/1126765236> 
+  gndo:variantNameForTheWork "The Fire Raisers (Englisch)", "Bay Biedermann'la kundakcilar (Türkisch)";
+  gndo:preferredNameForTheWork "Herr Biedermann und die Brandstifter (Hörspiel)"; #title
+  gndo:firstAuthor <https://d-nb.info/gnd/118536109>;
+  gndo:dateOfPublication "1953" .
+
+<https://d-nb.info/gnd/118536109> gndo:preferredNameForThePerson "Frisch, Max" .

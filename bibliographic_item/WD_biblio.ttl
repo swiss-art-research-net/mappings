@@ -1,0 +1,11 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+  wd:Q857165 rdfs:label "The Fire Raisers"@en ; #title
+    wdt:P571 "1 January 1953" ; #date
+    wdt:P50  wd:Q115483 . #author
+
+   wd:Q115483 rdfs:label "Max Frisch"@en . #author label

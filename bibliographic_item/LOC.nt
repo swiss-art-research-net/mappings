@@ -1,0 +1,8 @@
+<http://id.loc.gov/authorities/names/n89106565> <http://www.loc.gov/mads/rdf/v1#authoritativeLabel> "Lee, Harper. To kill a mockingbird" . #title
+_:b8iddOtlocdOtgovauthoritiesnamesn89106565 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.loc.gov/mads/rdf/v1#PersonalName> .
+<http://id.loc.gov/authorities/names/n89106565> <http://www.loc.gov/mads/rdf/v1#componentList> _:b7iddOtlocdOtgovauthoritiesnamesn89106565 .
+_:b7iddOtlocdOtgovauthoritiesnamesn89106565 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:b8iddOtlocdOtgovauthoritiesnamesn89106565 .
+_:b8iddOtlocdOtgovauthoritiesnamesn89106565 <http://www.loc.gov/mads/rdf/v1#authoritativeLabel> "Lee, Harper." . #author
+<http://id.loc.gov/authorities/names/n89106565> <http://www.loc.gov/mads/rdf/v1#creationDateStart> _:b109iddOtlocdOtgovauthoritiesnamesn89106565 .
+_:b109iddOtlocdOtgovauthoritiesnamesn89106565 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:b109iddOtlocdOtgovauthoritiesnamesn89106565 <http://www.w3.org/2000/01/rdf-schema#label> "(edtf) 1960" . #time
